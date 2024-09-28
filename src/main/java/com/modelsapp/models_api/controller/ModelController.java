@@ -45,3 +45,6 @@ public class ModelController {
         return model.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 }
+
+
+
